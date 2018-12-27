@@ -22,6 +22,7 @@ Step 1 of the Interview process. Follow the instructions below to complete this 
 - Export api key environment variable: export API_KEY=${your_api_key}
 - Start webpack using npm start
 - Navigate to app in browser
+- Once the challenge is complete, please push up the code to a new private repo and grant access to 'chilch' for code review 
 
 ## Requirements
 
@@ -55,4 +56,5 @@ Server-Side - .NET Core Web Api
 3. Using Redux to manage state (Client-Side)
 4. Using React Router DOM for routing (Client-Side)
 5. Use bootstrap for styling the website (Client-Side)
+6. Add Swagger UI to document your API (Server-Side)
 
