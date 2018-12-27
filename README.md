@@ -1,6 +1,7 @@
 # Interview Coding Challenge
 
-Step 1 of the Interview process. Follow the instructions below to complete this portion of the interview...
+Step 1 of the Interview process. Follow the instructions below to complete this portion of the interview. 
+Please note, although we do not set a time limit for this challenge, we recommend completing it as soon as possible as we evaluate candidates on a first come, first serve basis...
 
 ## Prerequisites:
 
@@ -22,7 +23,7 @@ Step 1 of the Interview process. Follow the instructions below to complete this 
 - Export api key environment variable: export API_KEY=${your_api_key}
 - Start webpack using npm start
 - Navigate to app in browser
-- Once the challenge is complete, please push up the code to a new private repo and grant access to 'chilch' for code review 
+- Once the challenge is complete, please push the code up to a new private repo and grant access to 'chilch' for code review.***Then email jobs@thezig.io with a link to your private repo and a copy of your resume.***
 
 ## Requirements
 
