@@ -35,11 +35,14 @@ Step 1 of the Interview process. Follow the instructions below to complete this 
     2. api/search?query=react - Returns movies where the title matches parts of the query string (for the search field)
     3. /api/movie/1145 - Returns a single movie by Movie Id (for use by the detail page)
 7. Add Unit tests for the Controllers and Repos
-    
-***HINT: Enable/Allow CORS (Cross-Origin Resource Sharing) on the server-side (https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-2.2)***
+
+## Hints
+
+- HINT 1: Enable/Allow CORS (Cross-Origin Resource Sharing) on the server-side (https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-2.2)
+- HINT 2: Use the DAL Project (Data Access Layer) on the server side to implement the repository pattern (https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff649690(v=pandp.10))
 
 
-## Discussion
+## Tech
 
 The technologies used to build this app are: 
 Client-Side - ReactJS, Webpack
