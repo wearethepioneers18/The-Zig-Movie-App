@@ -3,6 +3,9 @@
 Step 1 of the Interview process. Follow the instructions below to complete this portion of the interview. 
 Please note, although we do not set a time limit for this challenge, we recommend completing it as soon as possible as we evaluate candidates on a first come, first serve basis...
 
+If you have any questions, please feel free to email support@TheZig.io. We will do our best to clarify any issues you come across.
+
+
 ## Prerequisites:
 
 1. A Text Editor - We recommend Visual Studio Code for the ClientSide code, its lightweight, powerful and Free! (https://code.visualstudio.com/)
