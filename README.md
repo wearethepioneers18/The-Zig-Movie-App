@@ -32,7 +32,7 @@ If you have any questions, please feel free to email support@TheZig.io. We will 
 
 1. Create a  homepage that will list popular movies from the API. 
 2. Add a search bar that can for movies.
-3. The list should coontain links for each movie title to navigate to an individual detail page with more info for each movie. 
+3. The list should contain links for each movie title to navigate to an individual detail page with more info for each movie. 
 4. On the detail page, the poster image and title link to the movie's official site.
 5. All the data should be retrieved from endpoints exposed via the server-side web api
 6. Your API routes should be as follows:
