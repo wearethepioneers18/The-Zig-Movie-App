@@ -31,13 +31,13 @@ If you have any questions, please feel free to email support@TheZig.io. We will 
 ## Requirements
 
 1. Create a  homepage that will list popular movies from the API. 
-2. Add a search bar that can for movies.
+2. Add a search bar that can search for movies by title.
 3. The list should contain links for each movie title to navigate to an individual detail page with more info for each movie. 
-4. On the detail page, the poster image and title link to the movie's official site.
+4. On the detail page,display the poster image,the title should link to the movie's official site and a add a short description of the movie.
 5. All the data should be retrieved from endpoints exposed via the server-side web api
 6. Your API routes should be as follows:
-    1. api/popular - Filters to top 20 most popular movies (for homepage list of popular movies)
-    2. api/search?query=react - Returns movies where the title matches parts of the query string (for the search field)
+    1. api/popular - Filters top 20 most popular movies (for homepage list of popular movies)
+    2. api/search?query=birdbox - Returns movies where the title matches parts of the query string (for the search field)
     3. /api/movie/1145 - Returns a single movie by Movie Id (for use by the detail page)
 7. Add Unit tests for the Controllers and Repos
 
@@ -56,17 +56,23 @@ Server-Side - .NET Core Web Api
 ## Bonus Points
     
 1. Using Singleton Pattern for the Http Client that access the Movie API (Server-Side)
-2. Using Inversion of Control (aka Dependency Injection) throughout the (Server-Side)
+2. Using Inversion of Control (aka Dependency Injection) throughout on the (Server-Side)
 3. Using Redux to manage state (Client-Side)
 4. Using React Router DOM for routing (Client-Side)
 5. Use bootstrap for styling the website (Client-Side)
-6. Add Swagger UI to document your API (Server-Side)
+6. Add Swagger UI to document your API create a new API key and it will be listed under the heading "API Key (v3 auth)" 
+ (Server-Side)
 
 ## Obtaining an API Token from www.themoviedb.org
 1.	Create a profile on www.themoviedb.org
 2.	Once you’re logged into your profile, click on your username/profile menu in the top right corner and select “Settings” 
 3.	Under “Settings”, click on “API” in the left hand navigation
-4.	Under the API Settings, you can create a new API key and it will be listed under the heading "API Key (v3 auth)" 
+4.	Under the API Settings, you can
 
-Let me know if you have any additional questions. Looking forward to your submission.
+
+***If you have any questions, difficulties or would simply like to discuss the requirements, please do not hesitate to contact us at support@thezig.io. Asking questions for clarification or requesting help of any kind, is NOT AT ALL disqualifying, in fact we encourage it, it's called teamwork :-)*** 
+
+We look forward to receiving your submission.
+
+Good Luck
 
