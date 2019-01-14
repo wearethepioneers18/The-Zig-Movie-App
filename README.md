@@ -62,3 +62,11 @@ Server-Side - .NET Core Web Api
 5. Use bootstrap for styling the website (Client-Side)
 6. Add Swagger UI to document your API (Server-Side)
 
+## Obtaining an API Token from www.themoviedb.org
+1.	Create a profile on www.themoviedb.org
+2.	Once you’re logged into your profile, click on your username/profile menu in the top right corner and select “Settings” 
+3.	Under “Settings”, click on “API” in the left hand navigation
+4.	Under the API Settings, you can create a new API key and it will be listed under the heading "API Key (v3 auth)" 
+
+Let me know if you have any additional questions. Looking forward to your submission.
+
