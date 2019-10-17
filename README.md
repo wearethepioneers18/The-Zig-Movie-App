@@ -3,7 +3,7 @@
 Step 1 of the Interview process. Follow the instructions below to complete this portion of the interview. 
 Please note, although we do not set a time limit for this challenge, we recommend completing it as soon as possible as we evaluate candidates on a first come, first serve basis...
 
-If you have any questions, please feel free to email support@TheZig.io. We will do our best to clarify any issues you come across.
+If you have any questions, please feel free to email support@thezig.io. We will do our best to clarify any issues you come across.
 
 
 ## Prerequisites:
@@ -26,7 +26,15 @@ If you have any questions, please feel free to email support@TheZig.io. We will 
 - Export api key environment variable: export API_KEY=${your_api_key}
 - Start webpack using npm start
 - Navigate to app in browser
-- Once the challenge is complete, please push the code up to a new private repo and grant access to 'chilch' for code review.***Then email jobs@thezig.io with a link to your private repo and a copy of your resume.***
+
+Once the challenge is complete, please push the code up to a new private repo and grant access to the following email addresses for code review 
+
+        - chilch  
+        - manolivier93@gmail.com    
+        - musukwamoshi@gmail.com    
+        - mbuyumakayi@gmail.com    
+        
+***Then email jobs@thezig.io with a link to your private repo and a copy of your resume.***
 
 ## Requirements
 
