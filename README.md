@@ -32,7 +32,7 @@ Once the challenge is complete, please push the code up to a new private repo an
         - chilch  
         - manolivier93@gmail.com    
         - musukwamoshi@gmail.com    
-        - mbuyumakayi@gmail.com    
+        - mbmakayi@gmail.com    
         
 ***Then email jobs@thezig.io with a link to your private repo and a copy of your resume.***
 
