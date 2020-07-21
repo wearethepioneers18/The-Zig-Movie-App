@@ -1,0 +1,14 @@
+.jumbotron {
+  /* color: white; */
+  object-fit: contain;
+  height: 300px;
+  margin-top: 80px;
+  width: 100%;
+  border-radius: 0%;
+}
+
+/* .display-4 {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+} */
