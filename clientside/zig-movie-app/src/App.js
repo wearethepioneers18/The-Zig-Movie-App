@@ -18,7 +18,6 @@ function App() {
     <React.Fragment>
       {/* Navbar */}
       <Navbar />
-      {/* jumbotron */}
 
       {/* Main content */}
       <Router>

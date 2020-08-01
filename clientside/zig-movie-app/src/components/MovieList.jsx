@@ -1,21 +1,14 @@
 import React from "react";
-import "../movielist.css";
 import Movie from "./Movie";
 
-// const base_url = "https://image.tmdb.org/t/p/original/";
-
-function MovieList({ title, results }) {
+function MovieList({ results }) {
   return (
-    <div className="row">
-      <h2>{title}</h2>
-
-      <div className="movie__posters">
+    <div>
+      <section className="movies">
         {results.map((movie) => {
-          return (
-            <Movie key={movie.id} id={movie.id} image={movie.poster_path} title={movie.title} />
-          );
+          return <Movie key={movie.id} movie={movie} />;
         })}
-      </div>
+      </section>
     </div>
   );
 }

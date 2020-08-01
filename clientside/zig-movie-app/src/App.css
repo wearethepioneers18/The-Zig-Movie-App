@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  max-width: 960px;
+  width: 100%;
 }
 
 /* .App-header {
@@ -16,6 +18,3 @@
 .App-link {
   color: #61dafb;
 } */
-
-
-
