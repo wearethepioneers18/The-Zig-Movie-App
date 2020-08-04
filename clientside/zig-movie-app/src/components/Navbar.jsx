@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/nav.css";
 
 function Navbar() {
@@ -9,10 +8,8 @@ function Navbar() {
 
   return (
     <div className="nav">
-      <nav className="navbar-dark">
-        <Link style={navStyles} to={`/home`}>
-          The Zig Movies
-        </Link>
+      <nav className="navbar-dark" style={navStyles}>
+        The Zig Movies
       </nav>
     </div>
   );

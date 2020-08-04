@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 function MovieDetails({ match }) {
-  const [item, setItem] = useState({});
+  const [item, setItem] = useState({
+    selected: {},
+  });
 
   const apiKey = process.env.ZIG_MOVIE_APP_API;
 
@@ -26,16 +28,46 @@ function MovieDetails({ match }) {
   return (
     <section className="movie__details">
       <div className="content">
-        <h3>
-          <a href={`${item.homepage}`} alt="HTML tutorial">
-            {item.title}
-          </a>
-        </h3>
-        <div className="overview">
-          <img key={item.id} src={item.poster_path} alt={item.title} />
-          <p>{item.overview}</p>
+        <div className="card mb-8">
+          <div className="row no-gutters">
+            <div className="col-md-4">
+              <img
+                src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+                className="card-img"
+                alt="Movie Poster"
+              />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h3 className="card-title">
+                  <a
+                    href={`${item.homepage}`}
+                    alt="Movie Title"
+                    className="link"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <strong>{item.title}</strong>
+                  </a>
+                </h3>
+                <hr />
+                <h6>Overview</h6>
+                <p className="card-text">{item.overview}</p>
+                <p className="card-text">
+                  <medium className="text-muted">
+                    {" "}
+                    Movie Popularity: {item.popularity}
+                  </medium>
+                </p>
+                <p className="card-text">
+                  <medium className="text-muted">
+                    {" "}
+                    Release Date: ({item.release_date})
+                  </medium>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <button className="banner__button">Close</button>
       </div>
     </section>
   );

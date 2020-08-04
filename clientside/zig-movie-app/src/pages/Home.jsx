@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MovieList from "../components/MovieList";
 import Jumbotron from "../components/Jumbotron";
-import SearchBar from "../components/SearchBar";
+
 import axios from "../axios";
 
 function Home() {
@@ -51,8 +51,7 @@ function Home() {
 
   return (
     <main>
-      <Jumbotron />
-      <SearchBar handleSubmit={handleSubmit} handleChange={handleChange} />
+      <Jumbotron handleSubmit={handleSubmit} handleChange={handleChange} />
       <MovieList title="Popular Movies" results={state.movies} />
     </main>
   );

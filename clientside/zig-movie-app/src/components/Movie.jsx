@@ -7,17 +7,25 @@ const base_url = "https://image.tmdb.org/t/p/original/";
 export default function Movie({ movie }) {
   return (
     <div className="movie__card">
-      {
+      <div className="card" style={{ width: "18rem" }}>
         <img
           key={movie.id}
           src={`${base_url}${movie.poster_path}`}
           alt={movie.title}
-          style={{ width: "100%" }}
         />
-      }
-      <h4>
-        <Link to={`/moviedetails/${movie.id}`}>{movie.title}</Link>
-      </h4>
+        <hr />
+        <div className="card-body">
+          <h5>
+            <Link
+              to={`/moviedetails/${movie.id}`}
+              className="link"
+              style={{ textDecoration: "none" }}
+            >
+              {movie.title}
+            </Link>
+          </h5>
+        </div>
+      </div>
     </div>
   );
 }

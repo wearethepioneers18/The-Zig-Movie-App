@@ -1,13 +1,13 @@
 .nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 20px;
-    
-    z-index: 1;
-   
-    
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
 
-    background-color: rgba(52, 52, 52, 0.8);
-    /* background-color: #3db1ff; */
+  z-index: 1;
+  border-radius: 0%;
+  border: none;
+
+  background-color: #3db1ff;
+  /* background-color: #3db1ff; */
 }

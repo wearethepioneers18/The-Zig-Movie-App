@@ -6,7 +6,7 @@ function SearchBar({ handleSubmit, handleChange }) {
   return (
     <div className="container">
       <form className="form-line" onSubmit={handleSubmit}>
-        <div className="form-group mx-sm-3 mb-2">
+        <div id="input__text" className="form-group mx-sm-3 mb-2">
           <input
             type="text"
             placeholder="Search your favourite movies and TV shows..."

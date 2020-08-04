@@ -18,6 +18,30 @@ section {
   width: 100%;
 }
 
+div.card-body {
+  padding-left: 30px;
+}
+
+.card-title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+div.col-md-4 img {
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-width: 0px;
+  outline: none;
+  border-radius: 10px;
+}
+
+/* Movie Content Styles */
 .movies {
   display: flex;
   flex-wrap: wrap;
@@ -26,12 +50,12 @@ section {
 }
 
 .movie__card {
-  width: 10%;
+  width: 20%;
   min-width: 250px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  margin-right: 10px;
   transition: transform 450ms;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -56,19 +80,8 @@ section {
   display: none;
 }
 
-/* .movie__poster {
-  width: 100%;
-  object-fit: contain;
-  max-height: 200px;
-  min-width: 250px;
-  margin-right: 10px;
-  transition: transform 450ms;
-  overflow-y: hidden;
-  overflow-x: scroll;
-} */
-
 .movie__card:hover {
-  transform: scale(1.08);
+  transform: scale(1.04);
   opacity: 1;
 }
 
@@ -78,13 +91,13 @@ section {
   left: 0;
   width: 100vw;
   height: 100vh;
-
-  overflow-y: scroll;
+  margin-top: 100px;
 }
 
 .movie__details .content {
   display: block;
   width: 100%;
+  height: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 25px;
@@ -136,4 +149,63 @@ section {
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s;
+}
+
+/* Form Styles */
+
+.form-line input[type="text"] {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.form-line button {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+
+  height: 46px;
+  padding: 10px 26px;
+  border: none;
+  background: linear-gradient(
+    to right,
+    rgba(var(--tmdbLightGreen), 1) 0%,
+    rgba(var(--tmdbLightBlue), 1) 100%
+  );
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  color: #3db1ff;
+}
+
+.link {
+  color: #202020;
+}
+
+.link:hover {
+  color: #3db1ff;
+}
+
+.movie__card .card {
+  min-height: fit-content;
+}
+
+.movie__card .card-body {
+  padding-top: 0%;
+  padding-left: 10px;
+}
+
+.movie__card .card img {
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+hr {
+  margin-top: 0px !important;
 }
