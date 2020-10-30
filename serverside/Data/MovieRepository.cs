@@ -33,8 +33,6 @@ namespace ZigMoviesApi.Data
 
             var content = await httpResponse.Content.ReadAsStringAsync();
 
-            Console.WriteLine(content);
-
             var movies = JsonConvert.DeserializeObject<Movie.Rootobject>(content);
 
             return movies;
